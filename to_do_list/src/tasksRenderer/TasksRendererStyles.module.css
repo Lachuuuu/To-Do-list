@@ -1,0 +1,8 @@
+.taskBox{
+    border: 1px solid black;
+}
+.tasksBox{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
