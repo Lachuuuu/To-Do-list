@@ -14,10 +14,6 @@ function TasksRenderer(props){
         setTasks([...tasks])
     }
 
-    useEffect(() =>{
-        console.log(completedTasks)
-    },[completedTasks])
-
     return(
         <div className={UtilStyles.flexColumn}>
             <h1>TO DO</h1>
